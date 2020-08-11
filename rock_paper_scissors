@@ -1,0 +1,13 @@
+name1 = input(" player 1 name : ")
+name2 = input("player 2 name : ")
+player_1 = input(f'{name1}: rock, paper or scissors? ')
+player_2 = input(f'{name2}: rock, paper or scissors ')
+
+while player_1 == "rock" and player_2 == "paper" or player_1 == "scissors" and player_2 == "rock" or player_1 == "paper" and player_2 == "scissors":
+    print(f'{name2} wins!!')
+    break
+while player_1 == "rock" and player_2 == "scissors" or player_1 == "paper" and player_2 =="rock" or player_1 =="scissors" and player_2 == "paper":
+    print(f'{name1} wins!!!')
+    break
+if player_1 == player_2 :
+    print("it's a tie!!")
