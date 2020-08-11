@@ -1,0 +1,8 @@
+string_1 = list(input("enter the string : "))
+ln = len(string_1) +1
+string_2 = string_1[::-1]
+if string_1 == string_2:
+    print(" the string is palindrome")
+else:
+    print("the string is not a palindrone")
+print(string_1, string_2) #to check both strings mannually
